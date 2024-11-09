@@ -19,12 +19,12 @@ This project predicts movie ratings for 610 users using a Graph Neural Network (
 
 ## Installation & Setup
 
-1. **Install dependencies**:  
-  Ensure you have Python installed, then install the required packages by running:
+**Install dependencies**:  
+Ensure you have Python installed, then install the required packages by running:
 
-  ```bash
-  pip install -r requirements.txt
-  ``` 
+```bash
+pip install -r requirements.txt
+``` 
 
 ## Running the notebooks:
 - To run the GNN model, open the `gnn-cuda-run-on-collab.ipynb` notebook in Google Colab.
@@ -38,4 +38,4 @@ The file `tensor.pth` contains pre-trained movie embeddings. These embeddings ca
 The `final_preds.npy` contains the predicted movie ratings for 610 users. You can load this file using `numpy` to evaluate the GNN predictions.
 
 ## Notes
-Made with love by Luka Lafaye de Micheaux and Newman Chen from PSL.
+Made with love by Alejandro Jorba, Newman Chen, and Luka Lafaye de Micheaux from PSL.
